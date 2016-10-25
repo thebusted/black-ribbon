@@ -1,10 +1,8 @@
-/* 
- * Black Ribbon
- * 
- * and open the template in the editor.
- */
+/**
+* BlackRibbon
+*/
 var BlackRibbon = (function () {
-	this.cdn = 'https://drive.google.com/uc?id=';
+	this.cdn = 'https://storage.googleapis.com/black-ribbon.appspot.com/img/';
 	this.getPosition = function () {
 		// Get option from window['brb']
 		var brb = window['brb'] || null;
@@ -16,17 +14,7 @@ var BlackRibbon = (function () {
 		};
 	};
 	this.getImage = function(pos, src){
-		if(pos.x === 'right' && pos.y === 'bottom') {
-			src = '0B0CggJrQwv_JSl8xV2lHd3phRlU';
-		} else if(pos.x === 'right' && pos.y === 'top') {
-			src = '0B0CggJrQwv_JRUg5RjU0SDRyMWM';
-		} else if(pos.x === 'left' && pos.y === 'bottom') {
-			src = '0B0CggJrQwv_JNGUtenJSVGtsM2c';
-		} else {
-			src = '0B0CggJrQwv_JNVUtMElPMnh4aUk';
-		}
-		
-		return cdn + src;
+		return cdn + 'black_ribbon_' + pos.y + '_' + pos.x + '.png';
 	};
 	this.createBlackRibbon = function (pos) {
 		// Create img tag

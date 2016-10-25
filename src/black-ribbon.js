@@ -1,7 +1,7 @@
 /**
 * BlackRibbon BETA v1.0
 * 25 October 2016
-* https://github.com/thebusted/black-ribbon
+* https://github.com/thebusted/black-ribbon/
 */
 var BlackRibbon = (function () {
 	this.cdn = 'https://storage.googleapis.com/black-ribbon.appspot.com/img/';

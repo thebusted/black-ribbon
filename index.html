@@ -13,14 +13,11 @@ and open the template in the editor.
 	<body>
 		<div>TODO write content</div>
 		<script>
-			(function (w, d, s, f, x, y, j, b) {
-				w['brb'] = {x, y};
-				b = d.getElementsByTagName(s)[0];
-				j = d.createElement(s);
-				j.async = 1;
-				j.src = f;
-				b.parentNode.insertBefore(j, b);
-			}(window, document, 'script', 'black-ribbon.js', 'right', 'top'));
+			(function(e,c,d,f,g,h,a,b){
+			e.brb={x:g,y:h};b=c.getElementsByTagName(d)[0];
+			a=c.createElement(d);a.async=1;a.src=f;
+			b.parentNode.insertBefore(a,b)})
+			(window,document,"script","black-ribbon.js","right","top");
 		</script>
 	</body>
 </html>

@@ -1,5 +1,5 @@
 /**
-* BlackRibbon BETA v1.0
+* BlackRibbon BETA v1.1
 * 25 October 2016
 * https://github.com/thebusted/black-ribbon/
 */

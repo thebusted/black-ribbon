@@ -1,2 +1,2 @@
 # black-ribbon
-Black ribbon on website using javascript. (In remembreance of His Majesty King Bhumibol Adulyadej)
+Black ribbon on website using javascript. Remembering Our Beloved King Bhumibol Adulyadej 1927 - 2016
